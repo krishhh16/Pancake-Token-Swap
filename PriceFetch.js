@@ -45,7 +45,7 @@ const priceFetch = async(humanFormat) => {
         amountsOut[1].toString(),
         decimal2
     )
-    console.log(humanOutPut)
+    console.log("This is the no. of WBNB:", humanOutPut)
 }
-humanFormat = "100"
-priceFetch(humanFormat);
+BUSDamount = "100"
+priceFetch(BUSDamount);
